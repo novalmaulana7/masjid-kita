@@ -1,10 +1,10 @@
-# Masjid Pakisaji
+# Masjid Kita
 
-A Flutter mobile application for browsing and exploring mosques in Pakisaji, Malang.
+A Flutter mobile application for browsing and exploring mosques in your area.
 
 ## Description
 
-Masjid Pakisaji is a Flutter-based mobile app that helps users discover mosques in the Pakisaji area of Malang, East Java. The app provides detailed information about each mosque including location, capacity, land area, building area, land status, and year established. Users can view mosques on an interactive map, browse through image carousels, and get directions via Google Maps.
+Masjid Kita is a Flutter-based mobile app that helps users discover mosques in the Pakisaji area of Malang, East Java. The app provides detailed information about each mosque including location, capacity, land area, building area, land status, and year established. Users can view mosques on an interactive map, browse through image carousels, and get directions via Google Maps.
 
 ### Key Features
 
@@ -29,8 +29,8 @@ Masjid Pakisaji is a Flutter-based mobile app that helps users discover mosques 
 
 ```bash
 # Clone the repository
-git clone https://github.com/novalmaulana7/masjid_pakisaji.git
-cd masjid_pakisaji_mobile
+git clone https://github.com/novalmaulana7/masjid-kita.git
+cd masjid-kita
 
 # Install dependencies
 flutter pub get
