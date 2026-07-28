@@ -1,50 +1,64 @@
-# masjid_pakisaji_mobile
+# Masjid Pakisaji
 
-A new Flutter project.
+A Flutter mobile application for browsing and exploring mosques in Pakisaji, Malang.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+Masjid Pakisaji is a Flutter-based mobile app that helps users discover mosques in the Pakisaji area of Malang, East Java. The app provides detailed information about each mosque including location, capacity, land area, building area, land status, and year established. Users can view mosques on an interactive map, browse through image carousels, and get directions via Google Maps.
 
-A few resources to get you started if this is your first Flutter project:
+### Key Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Splash Screen** — Branded app launch experience
+- **Mosque List** — Browse all mosques with search and distance-based sorting
+- **Mosque Detail** — View comprehensive information about each mosque including images, address, capacity, and more
+- **Interactive Map** — View mosque locations on a map using flutter_map
+- **Distance Calculation** — Shows real-time distance from your current location to each mosque
+- **Google Maps Integration** — Get directions to any mosque directly from the app
+- **Image Carousel** — Swipe through mosque photos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
+## How to Install and Run the Project
 
-# masjid_pakisaji_mobile
+### Prerequisites
 
-Flutter application project for Masjid Pakisaji information.
+- Flutter SDK (>= 3.7.2)
+- Dart SDK
+- Android Studio / VS Code
+- A physical device or emulator with GPS capabilities
 
-## Getting Started
+### Installation
 
-1. Make sure Flutter is installed on your device. [Flutter Installation Guide](https://docs.flutter.dev/get-started/install)
-2. Clone this repository:
-	```bash
-	git clone https://github.com/novalmaulana7/masjid_pakisaji.git
-	```
-3. Navigate to the project directory:
-	```bash
-	cd masjid_pakisaji_mobile
-	```
-4. Get the dependencies:
-	```bash
-	flutter pub get
-	```
-5. Run the application:
-	```bash
-	flutter run
-	```
+```bash
+# Clone the repository
+git clone https://github.com/novalmaulana7/masjid_pakisaji.git
+cd masjid_pakisaji_mobile
 
-## Resources
+# Install dependencies
+flutter pub get
 
-- [Flutter Documentation](https://docs.flutter.dev/)
-- [Codelab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+# Run the app
+flutter run
+```
 
-If you encounter any issues, please refer to the official Flutter documentation or contact the project maintainer.
+## How to Use the Project
 
->>>>>>> 6fa1b7b (Initial Commit)
+1. **Launch the App** — Open the app to see the splash screen, which will automatically navigate to the mosque list.
+2. **Browse Mosques** — Scroll through the list of mosques. Each card shows the mosque name, address, and distance from your location.
+3. **Search & Sort** — Use the search bar to find a specific mosque by name. Mosques are sorted by distance from your current location.
+4. **View Details** — Tap on any mosque card to view detailed information including capacity, land area, building area, land status, and year established.
+5. **View on Map** — In the detail screen, tap the map section to view the mosque's exact location on an interactive map.
+6. **Get Directions** — Tap the directions button to open Google Maps and get navigation to the mosque.
+
+## Credits
+
+- **novalmaulana** — Project owner and lead developer
+- [Flutter](https://flutter.dev) — UI framework
+- [flutter_map](https://github.com/fleaflet/flutter_map) — Map rendering
+- [latlong2](https://pub.dev/packages/latlong2) — Coordinate handling
+- [geolocator](https://pub.dev/packages/geolocator) — GPS location services
+- [carousel_slider](https://pub.dev/packages/carousel_slider) — Image carousel widget
+- [url_launcher](https://pub.dev/packages/url_launcher) — Opening URLs (Google Maps)
+- [SIMAS Kemenag](https://simas.kemenag.go.id) — Mosque data source
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
